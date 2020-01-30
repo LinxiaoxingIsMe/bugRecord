@@ -13,10 +13,87 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTableWidget" name="tableBugRecord"/>
+    </item>
+   </layout>
+  </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actNewBug"/>
+   <addaction name="actDelBug"/>
+   <addaction name="actModBug"/>
+   <addaction name="actCheck"/>
+   <addaction name="actSave"/>
+  </widget>
+  <action name="actNewBug">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/toolBar/ToolbarIco/Knob Add.ico</normaloff>:/toolBar/ToolbarIco/Knob Add.ico</iconset>
+   </property>
+   <property name="text">
+    <string>新建</string>
+   </property>
+  </action>
+  <action name="actDelBug">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/toolBar/ToolbarIco/Knob Cancel.ico</normaloff>:/toolBar/ToolbarIco/Knob Cancel.ico</iconset>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+  </action>
+  <action name="actModBug">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/toolBar/ToolbarIco/Knob Loop Off.ico</normaloff>:/toolBar/ToolbarIco/Knob Loop Off.ico</iconset>
+   </property>
+   <property name="text">
+    <string>修改</string>
+   </property>
+  </action>
+  <action name="actCheck">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/toolBar/ToolbarIco/Knob Search.ico</normaloff>:/toolBar/ToolbarIco/Knob Search.ico</iconset>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </action>
+  <action name="actSave">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/toolBar/ToolbarIco/Save.ico</normaloff>:/toolBar/ToolbarIco/Save.ico</iconset>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
  <connections/>
 </ui>

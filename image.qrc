@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/toolBar">
+        <file>ToolbarIco/Knob Add.ico</file>
+        <file>ToolbarIco/Knob Attention.ico</file>
+        <file>ToolbarIco/Knob Blue.ico</file>
+        <file>ToolbarIco/Knob Cancel.ico</file>
+        <file>ToolbarIco/Knob Download.ico</file>
+        <file>ToolbarIco/Knob Fast Forward.ico</file>
+        <file>ToolbarIco/Knob Fast Rewind.ico</file>
+        <file>ToolbarIco/Knob Favorite.ico</file>
+        <file>ToolbarIco/Knob Forward.ico</file>
+        <file>ToolbarIco/Knob Graphite.ico</file>
+        <file>ToolbarIco/Knob Green.ico</file>
+        <file>ToolbarIco/Knob Grey.ico</file>
+        <file>ToolbarIco/Knob Help.ico</file>
+        <file>ToolbarIco/Knob Info.ico</file>
+        <file>ToolbarIco/Knob Left.ico</file>
+        <file>ToolbarIco/Knob Loop Off.ico</file>
+        <file>ToolbarIco/Knob Loop On.ico</file>
+        <file>ToolbarIco/Knob Message.ico</file>
+        <file>ToolbarIco/Knob Orange.ico</file>
+        <file>ToolbarIco/Knob Pause.ico</file>
+        <file>ToolbarIco/Knob Play Green.ico</file>
+        <file>ToolbarIco/Knob Play.ico</file>
+        <file>ToolbarIco/Knob Purple.ico</file>
+        <file>ToolbarIco/Knob Record Off.ico</file>
+        <file>ToolbarIco/Knob Record On.ico</file>
+        <file>ToolbarIco/Knob Red.ico</file>
+        <file>ToolbarIco/Knob Refresh.ico</file>
+        <file>ToolbarIco/Knob Remove Red.ico</file>
+        <file>ToolbarIco/Knob Remove.ico</file>
+        <file>ToolbarIco/Knob Search.ico</file>
+        <file>ToolbarIco/Knob Shuffle Off.ico</file>
+        <file>ToolbarIco/Knob Shuffle On.ico</file>
+        <file>ToolbarIco/Knob Smart.ico</file>
+        <file>ToolbarIco/Knob Snapback.ico</file>
+        <file>ToolbarIco/Knob Snapforward.ico</file>
+        <file>ToolbarIco/Knob Stop.ico</file>
+        <file>ToolbarIco/Knob Upload.ico</file>
+        <file>ToolbarIco/Knob Valid Blue.ico</file>
+        <file>ToolbarIco/Knob Valid Green.ico</file>
+        <file>ToolbarIco/Save.ico</file>
+    </qresource>
+</RCC>
